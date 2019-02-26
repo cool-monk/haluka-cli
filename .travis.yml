@@ -1,0 +1,19 @@
+language: node_js
+services:
+  - mongodb
+node_js:
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+  - "7"
+sudo: false
+install:
+  - npm install
+script:
+  # Run test script
+  - npm run test
+  # Run linting
+  - npm run lint
+after_script:
+  - npm run coverage
