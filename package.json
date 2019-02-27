@@ -44,7 +44,8 @@
     "axios": "^0.18.0",
     "commander": "^2.19.0",
     "compare-versions": "^3.4.0",
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11"
   },
   "directories": {
     "test": "test"
